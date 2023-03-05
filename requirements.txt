@@ -1,0 +1,13 @@
+certifi==2022.12.7
+elasticsearch==7.17.9
+elasticsearch-dsl==7.4.0
+et-xmlfile==1.1.0
+numpy==1.24.2
+openpyxl==3.1.1
+pandas==1.5.3
+python-dateutil==2.8.2
+pytz==2022.7.1
+six==1.16.0
+tqdm==4.64.1
+urllib3==1.26.14
+xmltodict==0.13.0
