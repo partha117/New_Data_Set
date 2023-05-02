@@ -137,5 +137,5 @@ def convert_full_data(project_name,position_and_name_required):
     with open("{}.json".format(project_name), "w") as f:
         json.dump(data_list, f)
 if __name__ == "__main__":
-    convert_full_data(project_name='jackrabbit', position_and_name_required=True)
+    convert_full_data(project_name='httpclient', position_and_name_required=True)
 

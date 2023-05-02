@@ -104,7 +104,7 @@ if __name__ == "__main__":
 
     data_path = "dataset/"
     clone_path = "."
-    project = "jackrabbit"
+    project = "httpclient"
     # start_from = 0
 
     git_repo = {

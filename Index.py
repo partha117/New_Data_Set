@@ -50,7 +50,7 @@ class Bugs(Document):
         return super(Bugs, self).save(** kwargs)
 
 if __name__ == "__main__":
-    project_name = 'jackrabbit'
+    project_name = 'lucene-solr'
     with open("{}/{}.json".format(project_name, project_name), "rb") as file:
         content = file.read().decode(errors='replace')
         data = json.loads(content)

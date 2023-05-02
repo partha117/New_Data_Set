@@ -2,7 +2,7 @@ import pandas as pd
 import  json
 
 if __name__ == "__main__":
-    project_name = "lucene-solr"
+    project_name = "jackrabbit"
     with open("{}/{}_ES_Search_Result.json".format(project_name, project_name), "r") as f:
         json_file = json.load(f)
     bug_id = []
@@ -23,4 +23,4 @@ if __name__ == "__main__":
         "score": score,
         "match": [int(item) for item in match]
     })
-    df.to_csv("{}/{}.csv".format(project_name, project_name), index=False)
+    df.to_csv("{}/{}_Train.csv".format(project_name, project_name), index=False)

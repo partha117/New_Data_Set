@@ -170,6 +170,6 @@ def search_for(project_name):
 
 
 if __name__ == "__main__":
-    project_name = "jackrabbit"
+    project_name = "lucene-solr"
     search_for(project_name=project_name)
 
